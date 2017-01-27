@@ -118,6 +118,14 @@ Input a game object or V3 and it will output a V3 at a given direction from the 
 -useful for getting flanking positions for ai agents
 
 
+## Fsm Bool Test
+
+![alt text](http://i.imgur.com/ld9wwQR.png)
+
+Tests a bool on another fsm
+
+
+
 ## Game Object Speed no Y
 
 ![alt text](http://i.imgur.com/krz3ZGq.png)
@@ -145,6 +153,16 @@ Gets game object speed ignoring the Y velocity
 ![alt text](http://i.imgur.com/NX1tGvZ.png)
 
 Gets the forward +Z direction of a game object
+
+
+## Get Light Intensity
+
+![alt text](http://i.imgur.com/gf8SAAV.png)
+
+
+## Get Light Range
+
+![alt text](http://i.imgur.com/perhiss.png)
 
 
 ## Get Sphere Collider Radius
@@ -206,6 +224,12 @@ Give it cast hit info and it will give you a knockback position
 ![alt text](http://i.imgur.com/xC3fmwD.png)
 
 Casts an overlapSphere and stores hit game objects in an array
+
+
+## Physics LineCast 2
+
+![alt text](http://i.imgur.com/G9EaUu0.png)
+
 
 
 ## Play Single Audio Random Pitch

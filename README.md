@@ -10,6 +10,7 @@ bitcoin == 17PUcU7tdhhghvwwximtigGGqvp6pcfUzk
 I can't guarantee any support on these but if you have questions please post them in the
 Playmaker forum as I'm always hanging out there [Playmaker forums](http://hutonggames.com/playmakerforum/index.php)
 
+### If you want all the actions just download the "mdsPMActions.unitypackage"
 
 
 ## Add Knockback Force

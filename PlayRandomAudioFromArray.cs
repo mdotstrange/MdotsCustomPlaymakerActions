@@ -1,4 +1,4 @@
-﻿//by MDS
+//by MDS
 // Used Audio Play action + a little code to make this
 
 using UnityEngine;
@@ -31,10 +31,15 @@ namespace HutongGames.PlayMaker.Actions
         [Tooltip("If true the Finished event will fire before audio is done playing.")]
         public FsmBool waitForFinish;
 
+        [Tooltip("Use this variable to avoid repeats. Store it and repeats won't happen.")]
+        public FsmInt lastIndex;
+
+
         [Tooltip("Event to send when the AudioClip finishes playing.")]
         public FsmEvent finishedEvent;
 
         private AudioSource audio;
+        private int index;
  
         public override void Reset()
         {
@@ -55,7 +60,19 @@ namespace HutongGames.PlayMaker.Actions
                 audio = go.GetComponent<AudioSource>();
                 if (audio != null)
                 {
-                    AudioClip audioClip = (AudioClip)audioArray.Get(Random.Range(0, audioArray.Length));
+                    index = Random.Range(0, audioArray.Length);
+              
+                    while (index == lastIndex.Value)
+                    {
+                        index = Random.Range(0, audioArray.Length); 
+                       
+                    }
+                    
+
+                    lastIndex.Value = index;
+                    
+
+                    AudioClip audioClip = (AudioClip)audioArray.Get(index);
                     audio.clip = audioClip;
                     audio.volume = volume.Value;
                     audio.pitch = Random.Range(randomPitchLow.Value, randomPitchHigh.Value);

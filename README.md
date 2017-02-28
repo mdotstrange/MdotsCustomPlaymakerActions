@@ -363,6 +363,18 @@ Works same as Trigger event except stores hit object as gameObject instead of co
 
 ![alt text](http://i.imgur.com/nsD1cUK.png)
 
+## Flight Path Action
+
+![alt text](http://i.imgur.com/h49jpN6.png)
+
+Does basic flight pathfinding with a rigid body using Raycasts- example flight
+![alt text](https://fat.gfycat.com/UnknownBitterGuineapig.gif)
+Rigid Body settings
+![alt text](http://i.imgur.com/3mtpsdy.png)
+
+
+
+
 
 I can't guarantee any support on these but if you have questions please post them in the
 Playmaker forum as I'm always hanging out there [Playmaker forums](http://hutonggames.com/playmakerforum/index.php)

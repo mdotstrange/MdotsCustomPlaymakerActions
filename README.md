@@ -376,15 +376,6 @@ Rigid Body settings
 
 
 
-I can't guarantee any support on these but if you have questions please post them in the
-Playmaker forum as I'm always hanging out there [Playmaker forums](http://hutonggames.com/playmakerforum/index.php)
-
-If you want to tip me for helping you make your own Fsm spaghetti
-[paypal here](https://pledgie.com/campaigns/13952)
-bitcoin == 17PUcU7tdhhghvwwximtigGGqvp6pcfUzk
-
-
-
 
 
 

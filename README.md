@@ -290,7 +290,7 @@ Feed this a hitNormal from a cast to align objects to the hit object surface
 ![alt text](http://i.imgur.com/2APjb9P.png)
 
 Casts an OverlapBox and returns the first object hit
-(can be used an an alternative to box colliders for melee collisions)
+(can be used as an alternative to box colliders for melee collisions)
 
 
 ## Simple Overlap Capsule Plus
